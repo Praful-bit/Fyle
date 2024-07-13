@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing Agency</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div id="popupForm" class="form-popup" >
+        <form class="form-container" onsubmit="contact(event)">
+            <h2>Talk to us</h2>
+
+            <label for="email">Work email</label>
+            <input type="email" id="email" name="email" required>
+
+            <div class="name-container">
+                <div class="name-field">
+                    <label for="firstname">First name</label>
+                    <input type="text" id="firstname" name="firstname" required>
+                </div>
+                <div class="name-field">
+                    <label for="lastname">Last name</label>
+                    <input type="text" id="lastname" name="lastname" required>
+                </div>
+            </div>
+            
+            <input type="checkbox" id="terms" name="terms"><span>I agree to Fyle's terms and conditions, and provide consent to send me communication.</span>
+            
+            <button type="submit" class="btn">Contact Us</button>
+            
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

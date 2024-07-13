@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing Agency</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="container">
+        <div class="content">
+            <h1>AWARD WINNING</h1>
+            <h2>DIGITAL MARKETING AGENCY</h2>
+            <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante et elit fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum</p>
+            <a href="contactUs.html" class="contact-button" onclick="openForm()">CONTACT US</a>
+        </div>
+        <div class="image-container">
+            <img src="image/hero.png" alt="Digital Marketing">
+        </div>
+    </header>
+
+    <!-- New Section What We Do -->
+    <section class="what-we-do">
+        <h3>WHAT WE DO</h3>
+        <h4>SERVICES PROVIDE FOR YOU</h4>
+        <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante et elit fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum</p>
+        <div class="slider">
+            <div class="slides">
+                <div class="slide">
+                    <img src="image/gabby.jpg" alt="Service 1">
+                    <div class="overlay-text">Web Development
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus natus hic saepe iste ex quibusdam nobis.</p>
+                        <button>READ MORE ---></button>
+                    </div>
+                    
+                </div>
+                <div class="slide">
+                    <img src="image/riciardus.jpg" alt="Service 2">
+                    <div class="overlay-text">Web Development
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus natus hic saepe iste ex quibusdam nobis.</p>
+                        <button>READ MORE ---></button>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="image/heyho.jpg" alt="Service 3">
+                    <div class="overlay-text">Web Development
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus natus hic saepe iste ex quibusdam nobis.</p>
+                        <button>READ MORE ---></button>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="image/pixabay.jpg" alt="Service 4">
+                    <div class="overlay-text">Web Development
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus natus hic saepe iste ex quibusdam nobis.</p>
+                        <button>READ MORE ---></button>
+                    </div>
+                </div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div class="dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+    </section>
+    <section class="our-project">
+        <h2>OUR PROJECT</h2>
+        <h3>WHY WE ARE BEST</h3>
+        <div class="content-container">
+            <div class="image-container">
+                <img id="main-image" src="image/riciardus.jpg" alt="Main Image">
+            </div>
+            <div class="content-list">
+                <div class="content-item" onclick="changeImage('image/riciardus.jpg')">
+                    <h4>Genderless Kei - Japan's Hot</h4>
+                    <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of</p>
+                </div>
+                <div class="content-item" onclick="changeImage('image/gabby.jpg')">
+                    <h4>Better Strategy & Quality</h4>
+                    <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of</p>
+                </div>
+                <div class="content-item" onclick="changeImage('image/pixabay.jpg')">
+                    <h4>Genderless Kei - Japan's Hot</h4>
+                    <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="experts-growth">
+        <h2>EXPERTS GROWTH</h2>
+        <h3>OUR COMPANY GROWTH</h3>
+        <div class="stats-container">
+            <div class="stat-item">
+                <i class='bx bxs-heart'></i>
+                <h2>199 +</h2>
+                <p>Satisfied Customers</p>
+            </div>
+            <div class="stat-item">
+                <i class='bx bxs-time-five'></i>
+                <h2>1591 +</h2>
+                <p>Days Of Operation</p>
+            </div>
+            <div class="stat-item">
+                <i class='bx bxs-donate-heart'></i>
+                <h2>283 +</h2>
+                <p>Completed Projects</p>
+            </div>
+            <div class="stat-item">
+                <i class='bx bxs-trophy'></i>
+                <h2>75 +</h2>
+                <p>Win Awards</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
